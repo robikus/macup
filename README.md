@@ -67,3 +67,7 @@ Application:
 - [iterm2-solarized.md](https://gist.github.com/kevin-smets/8568070)
 - [Github: donnemartin/dev-setup](https://github.com/donnemartin/dev-setup)
 - [Github: mathiasbynens/dotfiles](https://github.com/mathiasbynens/dotfiles)
+
+
+## Linux
+https://opensource.com/article/20/6/homebrew-linux
