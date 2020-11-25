@@ -40,6 +40,8 @@ check_brew() {
 #########  APPLICATION  #########
 
 # Common Productivity App
+    # drawio \
+    # dozer \
 brew_install_productivity_app() {
 
   brew cask install \
@@ -50,20 +52,20 @@ brew_install_productivity_app() {
 }
 
 # Common Utility App
+    # aerial \
+    # alfred \
+    # fantastical \
+    # monosnap \
+    # zoomus \
 brew_install_utility_app() {
 
   brew cask install \
-    # aerial \
-    # alfred \
     caffeine \
     ccleaner \
     cheatsheet \
-    # fantastical \
     istat-menus \
     keka \
-    # monosnap \
     proxifier \
-    # zoomus \
     1password
 
 }
@@ -83,22 +85,22 @@ brew_install_quicklook_plugins() {
 }
 
 # Common Development App
+    # intellij-idea-ce \
+    # meld \
+    # sourcetree \
+    # sublime-text \
+    # virtualbox \
 brew_install_development_app() {
 
   brew cask install \
     anaconda \
     authy \
     docker \
-    # intellij-idea-ce \
     iterm2 \
     keepassxc \
-    # meld \
     mysql-shell \
-    # sourcetree \
     github \
-    # sublime-text \
     atom \
-    # virtualbox \
     visual-studio-code
 }
 
