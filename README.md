@@ -5,7 +5,7 @@ macup: Development Environment Setup for macOS
 Install with curl
 
 ```bash
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/yan9yu/macup/master/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robikus/macup/master/install.sh)"
 ```
 
 ---
@@ -22,21 +22,30 @@ Application:
   - CloudFormation
   - Code Runner
   - EditorConfig for VS Code
+  - Prettier
+  - Python
+  - Tailwind CSS IntelliSense
+  - VS Color Picker
+  - SQL Beautify
+  - Python
+  - Jinja
+  - HTML Preview
+  - Django
+
   - gitignore
   - GitLens
   - Jupyter
   - LaTex Workshop
   - Live Share
   - Markdown+Math
-  - Prettier
-  - Python
   - Rainbow CSV
   - YAML
+
 - add vim add-ons
-- add IDEA add-ons
+
+- add IDEA add-ons (obsolete!)
   - .env files support
   - .ignore
-  - AWS CloudFormation
   - BashSupport
   - Context Free Grammar
   - Flake8 support

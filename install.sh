@@ -43,15 +43,11 @@ check_brew() {
 brew_install_productivity_app() {
 
   brew cask install \
-    chromium \
-    drawio \
-    dropbox \
-    dozer \
+    # drawio \
+    # dozer \
     google-chrome \
     google-chrome-canary \
     pdf-expert \
-    synology-drive \
-    wechat \
     vlc
 }
 
@@ -59,17 +55,17 @@ brew_install_productivity_app() {
 brew_install_utility_app() {
 
   brew cask install \
-    aerial \
-    alfred \
+    # aerial \
+    # alfred \
     caffeine \
     ccleaner \
     cheatsheet \
-    fantastical \
+    # fantastical \
     istat-menus \
     keka \
-    monosnap \
+    # monosnap \
     proxifier \
-    zoomus \
+    # zoomus \
     1password
 
 }
@@ -95,14 +91,16 @@ brew_install_development_app() {
     anaconda \
     authy \
     docker \
-    intellij-idea-ce \
+    # intellij-idea-ce \
     iterm2 \
     keepassxc \
-    meld \
+    # meld \
     mysql-shell \
-    sourcetree \
-    sublime-text \
-    virtualbox \
+    # sourcetree \
+    github \
+    # sublime-text \
+    atom \
+    # virtualbox \
     visual-studio-code
 }
 
@@ -149,7 +147,7 @@ brew_install_commandline_toolkit() {
 #########  MACUP  #########
 
 clone_macup() {
-  git clone --recursive https://github.com/yan9yu/macup.git ~/.macup
+  git clone --recursive https://github.com/robikus/macup.git ~/.macup
 }
 
 
@@ -170,8 +168,8 @@ config_alias() {
 
 config_git() {
 
-  git config --global user.name "yan9yu"
-  git config --global user.email dev.eric.young@gmail.com
+  git config --global user.name "robikus"
+  git config --global user.email polakovic.robert.git@gmail.com
   git config --global core.editor vim
   git config --global credential.helper cache
   git config --global credential.helper 'cache --timeout=3600'
