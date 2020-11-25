@@ -43,8 +43,6 @@ check_brew() {
 brew_install_productivity_app() {
 
   brew cask install \
-    # drawio \
-    # dozer \
     google-chrome \
     google-chrome-canary \
     pdf-expert \
