@@ -48,6 +48,7 @@ brew_install_productivity_app() {
   brew cask install google-chrome-canary
   brew cask install pdf-expert
   brew cask install vlc
+  brew cask install whatsapp
 }
 
 # Common Utility App
