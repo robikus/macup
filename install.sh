@@ -59,14 +59,13 @@ brew_install_productivity_app() {
     # zoomus \
 brew_install_utility_app() {
 
-  brew cask install \
-    caffeine \
-    ccleaner \
-    cheatsheet \
-    istat-menus \
-    keka \
-    proxifier \
-    1password
+    brew cask install caffeine
+    brew cask install ccleaner
+    brew cask install cheatsheet
+    brew cask install istat-menus
+    brew cask install keka
+    brew cask install proxifier
+    brew cask install 1password
 
 }
 
