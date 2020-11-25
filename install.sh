@@ -15,7 +15,7 @@ install_brew() {
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
   # brew cask
-  brew tap caskroom/cask
+  brew tap homebrew/cask
   brew tap homebrew/cask-fonts
   brew tap homebrew/cask-versions
 }
