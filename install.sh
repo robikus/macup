@@ -44,11 +44,10 @@ check_brew() {
     # dozer \
 brew_install_productivity_app() {
 
-  brew cask install \
-    google-chrome \
-    google-chrome-canary \
-    pdf-expert \
-    vlc
+  brew cask install google-chrome
+  brew cask install google-chrome-canary
+  brew cask install pdf-expert
+  brew cask install vlc
 }
 
 # Common Utility App
@@ -59,28 +58,27 @@ brew_install_productivity_app() {
     # zoomus \
 brew_install_utility_app() {
 
-    brew cask install caffeine
-    brew cask install ccleaner
-    brew cask install cheatsheet
-    brew cask install istat-menus
-    brew cask install keka
-    brew cask install proxifier
-    brew cask install 1password
+  brew cask install caffeine
+  brew cask install ccleaner
+  brew cask install cheatsheet
+  brew cask install istat-menus
+  brew cask install keka
+  brew cask install proxifier
+  brew cask install 1password
 
 }
 
 # Quick Look plugins
 brew_install_quicklook_plugins() {
 
-  brew cask install \
-    qlcolorcode \
-    qlstephen \
-    qlmarkdown \
-    quicklook-json \
-    qlprettypatch \
-    quicklook-csv \
-    webpquicklook \
-    suspicious-package
+  brew cask install qlcolorcode
+  brew cask install qlstephen
+  brew cask install qlmarkdown
+  brew cask install quicklook-json
+  brew cask install qlprettypatch
+  brew cask install quicklook-csv
+  brew cask install webpquicklook
+  brew cask install suspicious-package
 }
 
 # Common Development App
@@ -91,54 +89,52 @@ brew_install_quicklook_plugins() {
     # virtualbox \
 brew_install_development_app() {
 
-  brew cask install \
-    anaconda \
-    authy \
-    docker \
-    iterm2 \
-    keepassxc \
-    mysql-shell \
-    github \
-    atom \
-    visual-studio-code
+  brew cask install anaconda
+  brew cask install authy
+  brew cask install docker
+  brew cask install iterm2
+  brew cask install keepassxc
+  brew cask install mysql-shell
+  brew cask install github
+  brew cask install atom
+  brew cask install visual-studio-code
 }
 
 # Command Line Toolkit
 brew_install_commandline_toolkit() {
 
-  brew install \
-    aria2 \
-    awscli \
-    bat \
-    coreutils \
-    curl \
-    findutils \
-    fzf \
-    gawk \
-    git-lfs \
-    glances \
-    gnutls \
-    gnu-getopt \
-    gnu-indent \
-    gnu-tar \
-    gnu-sed \
-    htop \
-    imagemagick \
-    jq \
-    lrzsz \
-    mas \
-    moreutils \
-    openssh \
-    screen \
-    shellcheck \
-    the_silver_searcher \
-    tmux \
-    tree \
-    tmux \
-    wget \
-    xclip \
-    you-get \
-    youtube-dl
+  brew cask install aria2
+  brew cask install awscli
+  brew cask install bat
+  brew cask install coreutils
+  brew cask install curl
+  brew cask install findutils
+  brew cask install fzf
+  brew cask install gawk
+  brew cask install git-lfs
+  brew cask install glances
+  brew cask install gnutls
+  brew cask install gnu-getopt
+  brew cask install gnu-indent
+  brew cask install gnu-tar
+  brew cask install gnu-sed
+  brew cask install htop
+  brew cask install imagemagick
+  brew cask install jq
+  brew cask install lrzsz
+  brew cask install mas
+  brew cask install moreutils
+  brew cask install openssh
+  brew cask install screen
+  brew cask install shellcheck
+  brew cask install the_silver_searcher
+  brew cask install tmux
+  brew cask install tree
+  brew cask install tmux
+  brew cask install wget
+  brew cask install xclip
+  brew cask install you-get
+  brew cask install youtube-dl
 }
 
 
