@@ -104,38 +104,38 @@ brew_install_development_app() {
 # Command Line Toolkit
 brew_install_commandline_toolkit() {
 
-  brew cask install aria2
-  brew cask install awscli
-  brew cask install bat
-  brew cask install coreutils
-  brew cask install curl
-  brew cask install findutils
-  brew cask install fzf
-  brew cask install gawk
-  brew cask install git-lfs
-  brew cask install glances
-  brew cask install gnutls
-  brew cask install gnu-getopt
-  brew cask install gnu-indent
-  brew cask install gnu-tar
-  brew cask install gnu-sed
-  brew cask install htop
-  brew cask install imagemagick
-  brew cask install jq
-  brew cask install lrzsz
-  brew cask install mas
-  brew cask install moreutils
-  brew cask install openssh
-  brew cask install screen
-  brew cask install shellcheck
-  brew cask install the_silver_searcher
-  brew cask install tmux
-  brew cask install tree
-  brew cask install tmux
-  brew cask install wget
-  brew cask install xclip
-  brew cask install you-get
-  brew cask install youtube-dl
+  brew cask aria2d
+  brew cask awscli
+  brew cask bat
+  brew cask coreutils
+  brew cask curl
+  brew cask findutils
+  brew cask fzf
+  brew cask gawk
+  brew cask git-lfs
+  brew cask glances
+  brew cask gnutls
+  brew cask gnu-getopt
+  brew cask gnu-indent
+  brew cask gnu-tar
+  brew cask gnu-sed
+  brew cask htop
+  brew cask imagemagick
+  brew cask jq
+  brew cask lrzsz
+  brew cask mas
+  brew cask moreutils
+  brew cask openssh
+  brew cask screen
+  brew cask shellcheck
+  brew cask the_silver_searcher
+  brew cask tmux
+  brew cask tree
+  brew cask tmux
+  brew cask wget
+  brew cask xclip
+  brew cask you-get
+  brew cask youtube-dl
 }
 
 
