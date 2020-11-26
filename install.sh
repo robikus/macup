@@ -137,6 +137,7 @@ brew_install_commandline_toolkit() {
   brew install xclip
   brew install you-get
   brew install youtube-dl
+  # xcode-select --install
 }
 
 
