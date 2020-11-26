@@ -99,6 +99,7 @@ brew_install_development_app() {
   brew cask install github
   brew cask install atom
   brew cask install visual-studio-code
+  brew install node
 }
 
 # Command Line Toolkit

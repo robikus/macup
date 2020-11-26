@@ -18,6 +18,7 @@ System:
 Application:
 - add zsh configuration
   - Syntax Highlight
+  
 - add vs code add-ons
   - CloudFormation
   - Code Runner
