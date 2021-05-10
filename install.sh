@@ -66,6 +66,7 @@ brew_install_utility_app() {
   brew cask install keka
   brew cask install proxifier
   brew cask install 1password
+  brew cask install cakebrew
 
 }
 
