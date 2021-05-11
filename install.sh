@@ -44,11 +44,11 @@ check_brew() {
     # dozer \
 brew_install_productivity_app() {
 
-  brew cask install google-chrome
-  brew cask install google-chrome-canary
-  brew cask install pdf-expert
-  brew cask install vlc
-  brew cask install whatsapp
+  brew install --cask google-chrome
+  brew install --cask google-chrome-canary
+  brew install --cask pdf-expert
+  brew install --cask vlc
+  brew install --cask whatsapp
 }
 
 # Common Utility App
@@ -59,28 +59,28 @@ brew_install_productivity_app() {
     # zoomus \
 brew_install_utility_app() {
 
-  brew cask install caffeine
-  brew cask install ccleaner
-  brew cask install cheatsheet
-  brew cask install istat-menus
-  brew cask install keka
-  brew cask install proxifier
-  brew cask install 1password
-  brew cask install cakebrew
+  brew install --cask caffeine
+  brew install --cask ccleaner
+  brew install --cask cheatsheet
+  brew install --cask istat-menus
+  brew install --cask keka
+  brew install --cask proxifier
+  brew install --cask 1password
+  brew install --cask cakebrew
 
 }
 
 # Quick Look plugins
 brew_install_quicklook_plugins() {
 
-  brew cask install qlcolorcode
-  brew cask install qlstephen
-  brew cask install qlmarkdown
-  brew cask install quicklook-json
-  brew cask install qlprettypatch
-  brew cask install quicklook-csv
-  brew cask install webpquicklook
-  brew cask install suspicious-package
+  brew install --cask qlcolorcode
+  brew install --cask qlstephen
+  brew install --cask qlmarkdown
+  brew install --cask quicklook-json
+  brew install --cask qlprettypatch
+  brew install --cask quicklook-csv
+  brew install --cask webpquicklook
+  brew install --cask suspicious-package
 }
 
 # Common Development App
@@ -91,15 +91,15 @@ brew_install_quicklook_plugins() {
     # virtualbox \
 brew_install_development_app() {
 
-  brew cask install anaconda
-  brew cask install authy
-  brew cask install docker
-  brew cask install iterm2
-  brew cask install keepassxc
-  brew cask install mysql-shell
-  brew cask install github
-  brew cask install atom
-  brew cask install visual-studio-code
+  brew install --cask anaconda
+  brew install --cask authy
+  brew install --cask docker
+  brew install --cask iterm2
+  brew install --cask keepassxc
+  brew install --cask mysql-shell
+  brew install --cask github
+  brew install --cask atom
+  brew install --cask visual-studio-code
   brew install node
 }
 
@@ -183,7 +183,7 @@ config_iterm2() {
   # add Solarized Dark theme
 
   # add powerline font
-  brew cask install font-meslo-for-powerline
+  brew install --cask font-meslo-for-powerline
 
   # add powerlevel9k
   git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
