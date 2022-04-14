@@ -49,6 +49,7 @@ brew_install_productivity_app() {
   brew install --cask pdf-expert
   brew install --cask vlc
   brew install --cask whatsapp
+  brew install --cask slack
 }
 
 # Common Utility App
@@ -138,6 +139,7 @@ brew_install_commandline_toolkit() {
   brew install xclip
   brew install you-get
   brew install youtube-dl
+  brew install k9s
   # xcode-select --install
 }
 
